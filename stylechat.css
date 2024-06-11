@@ -1,0 +1,421 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  word-spacing: normal;
+  background-color: #C0C0C0;
+}
+
+.navbar navbar-expand-md bg-dark navbar-dark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #333;
+    color: white;
+}
+.navbar-dark .navbar-brand {
+    font-size:x-large;
+}
+.header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+/*  Home section */
+.home-content{
+    text-align: left;
+    color: #000;
+}
+.name{
+    line-height: 1.1;
+}
+.designation{
+    color: #1d6872;
+    font-size: 25px;
+}
+/* home paragaraph*/
+.parag{
+    text-align: justify;
+    font-size: x-large; /* recent updated*/
+}
+/* home paragaraph*/
+
+/* hire me section */
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center ;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+.home {
+    padding: 100px 50px;
+    padding-bottom: 10px;
+    padding-top: 28px;
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+.btn-box a {
+    margin: 5px 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-box a:hover {
+    background-color: #555;
+}
+@media (min-width: 768px) {
+    .btn-box {
+        flex-direction: row;
+        justify-content: flex-start; /* Align left for desktop view */
+    }
+
+    .btn-box a {
+        margin: 0 10px;
+    }
+}
+/* hire section */
+/* Social media*/
+ 
+.social-icons {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 0%;
+    font-size: 250%;
+}
+
+/* Styling for mobile devices */
+@media (max-width: 768px) {
+    .social-icons {
+        text-align: center;
+        padding-left: 0; /* Remove left padding for centering */
+    }
+}.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btn-2 {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-2:hover {
+    background-color: #555;
+}
+
+/* Social media*/
+/* CV*/
+/* Basic styling for the button */
+.download-cv-container {
+    display: flex;
+    justify-content: center; /* Center by default */
+    padding-left: 13px;
+}
+
+.download-cv-container .btn {
+    /* Additional styling for the button if needed */
+}
+
+/* Media query for desktop view */
+@media (min-width: 768px) {
+    .download-cv-container {
+        justify-content: flex-start; /* Align to the left for desktop view */
+    }
+}
+
+/*cv */
+.aboutme{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: x-large; /* recent update 3*/
+}
+.details{
+    padding-bottom: 1px;
+    text-align: justify;
+    font-size: x-large;/* rectent update 2*/
+}
+.sub-title{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.fa-solid fa-envelope fa-xl
+{
+    color:#ff004f;
+}
+.fa-solid fa-square-phone fa-xl{
+    color:#ff004f;
+}
+/*Image section*/
+.about-col-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* image section*/
+
+.tab-titles p {
+    cursor: pointer;
+    display: inline-block;
+    margin: 8px;
+    color: #333;
+}
+/*     */
+.sub-title text-center{
+    padding: 10px;
+}
+.row services-list text-center{
+    padding: 0%;
+}
+.col-md-4{
+    text-align: justify;
+    font-size: x-large; /* update recent 4 my Service section*/
+}
+.tab-titles{
+    display: flex;
+    margin: 20px o 40px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.tab-links{
+    margin-right: 50px;
+    margin: 0 10px;
+    font-size: x-large;
+    font-weight: 500;
+    cursor:pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#b54769;
+    position:absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+/* Education */
+.tab-titles mt-3{
+    display: flex;
+    font-size: x-large;
+
+
+}
+.sub-titles{
+    text-align: center;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px o;
+}
+.tab-contents ul li span{
+    color:#b54769;
+    font-size: x-large;
+    font-weight: bold;
+    scroll-padding-bottom: 40Px;
+}
+.tab-contents{
+    display:none;
+}
+.tab-contents.active-tab{
+    display:block;
+}
+/*     */
+
+/* Skills Bullet icon section*/
+.bullet-icon {
+    list-style-type: none; /* Remove default bullet */
+    padding-left: 20px; /* Add space for the bullet */
+    position: relative; /* Position the bullet */
+}
+.bullet-icon:before {
+    content: "\f0da"; /* Unicode for Font Awesome bullet icon */
+    font-family: "Font Awesome 6 Free"; /* Font Awesome family */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align it to the left */
+    font-weight: 900; /* Ensure solid icon weight */
+    color: black; /* Set bullet color */
+}
+
+/* Skills Bullet icon section End*/
+.tab-contents {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+/* Education */
+
+.work-list .work {
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+}
+
+.work .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.work:hover .layer {
+    opacity: 10;
+}
+ul {
+    font-size: x-large; /* Default font size */
+}
+
+ul li {
+    margin-bottom: 2px; /* Add some spacing between list items */
+}
+
+/* Media query for desktop view */
+@media (min-width: 768px) {
+    ul {
+        font-size: x-large; /* Larger font size for desktop view */
+    }
+}
+/* Project */
+/* Ensure text alignment is justified */
+.text-justify {
+    text-align: justify;
+    font-size: x-large;
+
+}
+.text-left{
+    font-size: large;
+}
+.pro-paragg{
+    margin-top: 1rem;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    word-spacing: -2px;
+}
+.pro-parag{
+    text-align: justify;
+    font-size: x-large;
+    line-height: 1.4;
+}
+
+/* Add padding for desktop and mobile */
+@media (min-width: 992px) {
+    .px-3 {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .px-3 {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+/* Project */
+
+/* Contact */
+/* Add this CSS to your stylesheet */
+#contact {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contact .sub-title2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+#contact .form-group {
+    margin-bottom: 15px;
+}
+
+#contact .btn {
+    margin-top: 15px;
+    margin-bottom: 30px; /* Space below submit button */
+}
+
+@media (max-width: 768px) {
+    #contact {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #contact .sub-title2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #contact .btn {
+        margin-top: 15px;
+        margin-bottom: 20px; /* Space below submit button for mobile */
+    }
+}
+
+ /* Contact */
+
+/* Copyright */
+
+.text{
+    margin-top: 1rem;
+    font-size: 13px;
+    margin-bottom: 1rem
+}
+.copyright {
+    background-color: #333;
+    color: white;
+    border-top: 2px solid #232f5f;
+    text-align: center;
+    padding-top: -5px;
+    padding-bottom: 5px;
+}
+/* Copyright */
