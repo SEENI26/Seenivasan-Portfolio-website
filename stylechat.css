@@ -36,8 +36,11 @@ body {
 }
 /* home paragaraph*/
 .parag{
-    text-align: justify;
-    font-size: x-large; /* recent updated*/
+     /* recent updated 15june24*/
+    font-size: x-large;
+    display: flow;
+    font-weight: normal;
+} 
 }
 /* home paragaraph*/
 
@@ -339,9 +342,11 @@ ul li {
     word-spacing: -2px;
 }
 .pro-parag{
-    text-align: justify;
+    /*recent update 15june24*/
     font-size: x-large;
-    line-height: 1.4;
+    word-spacing: 0px;
+    font-weight: normal;
+    display: flow; 
 }
 
 /* Add padding for desktop and mobile */
