@@ -10,7 +10,7 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 * Resume Page: Downloadable version of my resume.
 * Contact Page: Contact form for visitors to get in touch with me.
 
-# Frontend:
+# Frontend
 * HTML
 * CSS
 * Bootstrap
