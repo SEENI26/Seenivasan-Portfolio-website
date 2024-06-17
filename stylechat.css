@@ -333,8 +333,16 @@ ul li {
 
 }
 .text-left{
-    font-size: large;
+    font-size: 22px;
 }
+/* Comman Section */
+.a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 22px;
+}
+/* Comman Section */
 .pro-paragg{
     margin-top: 1rem;
     font-size: x-large;
