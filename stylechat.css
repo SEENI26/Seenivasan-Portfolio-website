@@ -59,7 +59,7 @@ body {
         }
 
         .btn-box a:hover {
-            background-color: #0056b3; /* Background color on hover */
+            background-color: #007bff; /* Background color on hover */
             color: #ffffff; /* Text color on hover */
         }
 }
