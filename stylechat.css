@@ -50,6 +50,18 @@ body {
     flex-direction: column;
     padding: 2px;
     align-items: center ;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF; /* Initial background color */
+    border-radius: 5px;
+    ransition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        .btn-box a:hover {
+            background-color: #0056b3; /* Background color on hover */
+            color: #ffffff; /* Text color on hover */
+        }
 }
 
 .navbar a {
