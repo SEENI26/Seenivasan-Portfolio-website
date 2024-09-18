@@ -42,6 +42,9 @@ body {
     font-weight: normal;
 } 
 }
+ .highlight {
+        background-color: lightblue; /* Choose your desired color */
+    }
 /* home paragaraph*/
 
 /* hire me section */
