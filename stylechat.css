@@ -42,9 +42,6 @@ body {
     font-weight: normal;
 } 
 }
- .highlight {
-        background-color: lightblue; /* Choose your desired color */
-    }
 /* home paragaraph*/
 
 /* hire me section */
@@ -113,6 +110,9 @@ body {
     }
 }
 /* hire section */
+.highlight {
+        background-color: lightblue; /* Choose your desired color */
+    }
 /* Social media*/
  
 .social-icons {
