@@ -4,7 +4,7 @@ body {
   font-weight: 500;
   font-style: normal;
   word-spacing: normal;
-  background-color: aqua;
+  background-color:#F8F9FA;
 }
 
 .navbar navbar-expand-md bg-dark navbar-dark {
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
-    background-color: #333;
+    background-color: #008080;
     color: white;
 }
 .navbar-dark .navbar-brand {
@@ -82,7 +82,7 @@ body {
     padding-bottom: 10px;
     padding-top: 28px;
     text-align: center;
-    background-color: aqua;
+    background-color: #F8F9FA;
 }
 
 .btn-box a {
@@ -439,7 +439,7 @@ ul li {
     margin-bottom: 1rem
 }
 .copyright {
-    background-color: #333;
+    background-color: #008080;
     color: white;
     border-top: 2px solid #232f5f;
     text-align: center;
