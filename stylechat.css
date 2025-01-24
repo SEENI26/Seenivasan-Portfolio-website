@@ -348,6 +348,7 @@ ul li {
 .text-justify {
     text-align: justify;
     font-size: x-large;
+    letter-spacing: 4px;
 
 }
 .text-left{
