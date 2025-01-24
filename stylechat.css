@@ -214,7 +214,7 @@ body {
 }
 .col-md-4{
     text-align: justify;
-    font-size: x-large; /* update recent 4 my Service section*/
+    font-size: large; /* update recent 4 my Service section*/
 }
 .tab-titles{
     display: flex;
