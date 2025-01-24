@@ -347,8 +347,8 @@ ul li {
 /* Ensure text alignment is justified */
 .text-justify {
     text-align: justify;
-    font-size: 24px;
-    letter-spacing: 4px;
+    font-size: 22px;
+    letter-spacing:initial;
 
 }
 .text-left{
