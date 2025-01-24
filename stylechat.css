@@ -18,6 +18,9 @@ body {
 .navbar-dark .navbar-brand {
     font-size:x-large;
 }
+.bg-dark {
+    background-color: #008080 !important;
+}
 .header .logo {
     font-size: 40px;
     font-weight: bold;
